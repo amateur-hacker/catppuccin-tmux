@@ -6,7 +6,7 @@ TRANSPARENT_THEME="$(tmux show-option -gv @catppuccin-tmux_transparent)"
 case $SELECTED_THEME in
 "mocha")
   declare -A THEME=(
-    ["background"]="#1e1e2e" # Base
+    ["background"]="#181823" # Base
     ["foreground"]="#cdd6f4" # Text
     ["black"]="#45475a"      # Surface1
     ["red"]="#f38ba8"        # Red
@@ -17,7 +17,7 @@ case $SELECTED_THEME in
     ["cyan"]="#89dceb"       # Sky
     ["white"]="#bac2de"      # Subtext1
 
-    ["bblack"]="#585b70"   # Surface2
+    ["bblack"]="#313244"   # Surface0
     ["bred"]="#eba0ac"     # Maroon
     ["bgreen"]="#94e2d5"   # Teal
     ["byellow"]="#fab387"  # Peach
@@ -29,7 +29,7 @@ case $SELECTED_THEME in
   ;;
 *)
   declare -A THEME=(
-    ["background"]="#1e1e2e" # Base
+    ["background"]="#181823" # Base
     ["foreground"]="#cdd6f4" # Text
     ["black"]="#45475a"      # Surface1
     ["red"]="#f38ba8"        # Red
@@ -40,7 +40,7 @@ case $SELECTED_THEME in
     ["cyan"]="#89dceb"       # Sky
     ["white"]="#bac2de"      # Subtext1
 
-    ["bblack"]="#585b70"   # Surface2
+    ["bblack"]="#313244"   # Surface0
     ["bred"]="#eba0ac"     # Maroon
     ["bgreen"]="#94e2d5"   # Teal
     ["byellow"]="#fab387"  # Peach
